@@ -42,7 +42,7 @@ void ShowMenu();//菜单函数的声明
 //		//开始添加联系人
 //		string name;
 //		cout << "请输入联系人的姓名" << endl;
-//		cin >> name;
+//		cin >> name;666
 //		abs->personarry[abs->size].m_name = name;
 //	}
 //}
@@ -57,10 +57,8 @@ int main()
 	int select;
 	while (true) {
 		ShowMenu();
-		
 		cin >> select;
-
-		switch (select) {
+		switch(select) {
 
 		case 1://添加联系人
 		addperon(&abs);
